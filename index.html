@@ -1,0 +1,15 @@
+<script>
+  // 1. Cargamos el manifest.json
+  const linkManifest = document.createElement('link');
+  linkManifest.rel = 'manifest';
+  linkManifest.href = 'https://github.com/WebKha/pwa-webkha/manifest.json';
+  document.head.appendChild(linkManifest);
+
+  // 2. Truco del iframe invisible para activar la instalación
+  window.addEventListener('load', () => {
+    const iframe = document.createElement('iframe');
+    iframe.src = 'https://github.com/WebKha/pwa-webkha/manifest.json';
+    iframe.style.display = 'none'; // Nadie lo verá
+    document.body.appendChild(iframe);
+  });
+</script>
