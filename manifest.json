@@ -1,7 +1,7 @@
 {
-  "name": "Nombre de tu Aplicación",
-  "short_name": "TuApp",
-  "start_url": "https://www.webkha.com",
+  "name": "Webkha",
+  "short_name": "Webkha",
+  "start_url": "https://webkha.com",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
