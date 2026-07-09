@@ -1,84 +1,15 @@
 {
-  "background_color": "#000000",
-  "description": "WebKha es una estación de trabajo digital que actúa como un sistema operativo en la web. Conozca nuestro sistema para trabajar completa y directamente sobre internet, ahorre recursos de memoria RAM y almacenamiento para ser más eficiente en su trabajo desde hoy mismo.",
-  "dir": "ltr",
+  "name": "Nombre de tu Aplicación",
+  "short_name": "TuApp",
+  "start_url": "https://www.webkha.com",
   "display": "standalone",
-  "name": "WebKha",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "WebKha",
-  "start_url": "www.webkha.com",
+  "background_color": "#ffffff",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "https://static.wixstatic.com/media/22f5bd_1353c10ae8a44e5bb73c675a5583b8f5~mv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/22f5bd_1353c10ae8a44e5bb73c675a5583b8f5~mv2.png",
-      "type": "image/png",
-      "sizes": "192x192",
-      "isSquare": true,
-      "isPng": true,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 192,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": true
-    },
-    {
-      "src": "https://static.wixstatic.com/media/22f5bd_1353c10ae8a44e5bb73c675a5583b8f5~mv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/22f5bd_1353c10ae8a44e5bb73c675a5583b8f5~mv2.png",
-      "type": "image/png",
-      "sizes": "32x32",
-      "isSquare": true,
-      "isPng": true,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 32,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
-    },
-    {
-      "src": "https://static.wixstatic.com/media/22f5bd_1353c10ae8a44e5bb73c675a5583b8f5~mv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/22f5bd_1353c10ae8a44e5bb73c675a5583b8f5~mv2.png",
-      "type": "image/png",
-      "sizes": "180x180",
-      "isSquare": true,
-      "isPng": true,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 180,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
-    },
-    {
-      "src": "https://static.wixstatic.com/media/22f5bd_9b93586f1ed74ec9ae85f9083ab5c257~mv2.png/v1/fill/w_1600,h_1200,al_c/22f5bd_9b93586f1ed74ec9ae85f9083ab5c257~mv2.png",
-      "isSquare": false,
-      "isPng": true,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 0,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
-    },
-    {
-      "src": "https://www.webkha.com/favicon.ico",
-      "type": "image/x-icon",
-      "sizes": "192x192",
-      "isSquare": true,
-      "isPng": false,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 192,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": true
+      "src": "icono-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
-  ],
-  "lang": "es",
-  "display_override": [
-    "window-controls-overlay"
-  ],
-  "categories": [
-    "productivity"
   ]
 }
